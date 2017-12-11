@@ -1,0 +1,91 @@
+body{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  color: orange;
+  font-family: 'Bungee', cursive;
+  font-size: 80px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  height: 150px;
+  display: inline-block;
+}
+
+.links{
+  display: inline-block;
+  list-style-type: none;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.links li {
+    float: left;
+}
+
+.links li a {
+    display: inline-block;
+    padding: 8px;
+}
+
+#about{
+  color: white;
+  font-family: 'Special Elite', cursive;
+}
+
+
+#projects{
+  background-color: white;
+  font-family: 'Monserrat', sans-serif;
+  width: 100%;
+}
+
+#projects h1 {
+  font-size: 40px;
+  font-family: 'Bungee', cursive;
+}
+
+#projects p {
+  display: block;
+}
+
+.screenshots img {
+  margin: auto;
+  display: inline-block;
+  width: 80vh;
+  height: 60vh;
+}
+
+.screenshots p {
+  display: inline-block;
+  margin: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .screenshots {
+    display: block;
+  }
+}
+
+.browser-game-description {
+  display: inline-block;
+}
+
+.fa-github{
+  color: orange;
+  margin-right: 10px;
+}
+
+.fa-linkedin{
+  color: orange;
+}
+
+#contact {
+  color: white;
+  font-family: 'Bungee', cursive;
+}
