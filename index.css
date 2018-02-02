@@ -4,6 +4,14 @@ body{
   flex-direction: column;
 }
 
+a {
+  color: pink;
+}
+
+a:visited {
+  color: grey;
+}
+
 .title{
   color: orange;
   font-family: 'Bungee', cursive;
@@ -54,23 +62,28 @@ body{
   display: block;
 }
 
+#projects-intro {
+  padding: 2%;
+}
+
 .screenshots img {
   margin: auto;
   display: inline-block;
-  width: 80vh;
+  max-width: 100%;
   height: 60vh;
 }
 
 .screenshots p {
   display: inline-block;
   margin: 30px;
+  max-width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 480px) {
   .screenshots {
     display: block;
   }
-}
+} */
 
 .browser-game-description {
   display: inline-block;
