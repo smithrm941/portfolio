@@ -2,7 +2,11 @@ body{
   background-color: black;
   display: flex;
   flex-direction: column;
-  max-width: 99%;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
@@ -10,15 +14,26 @@ a {
 }
 
 a:visited {
-  color: grey;
+  color: pink;
 }
 
-.title{
+.intro {
+  text-align: center;
+  background-image: linear-gradient(to right bottom, rgba(165, 172, 164, 0.8), rgba(207, 215, 213, 0.8)), url(./Code.jpg);
+  background-size: cover;
+}
+
+.intro img {
+  margin-top: 2em;
+}
+
+.name{
   color: orange;
   font-family: 'Bungee', cursive;
   font-size: 4em;
   display: inline-block;
   margin-bottom: 15px;
+  text-shadow: 2px 2px white;
 }
 
 .profile-pic {
@@ -49,17 +64,44 @@ a:visited {
   top: 0;
 }
 
-#about{
+#about h2 {
+  background-color: black;
   color: white;
   font-family: 'Special Elite', cursive;
-  font-size: 1.375em;
+  font-size: 1em;
 }
 
+#about h1 {
+  font-family: 'Bungee', cursive;
+  color: orange;
+  text-shadow: 2px 2px white;
+}
 
 #projects{
   background-color: white;
   font-family: 'Monserrat', sans-serif;
   max-width: 100%;
+}
+
+#projects h1{
+  text-shadow: 2px 2px orange;
+}
+
+#projects-intro {
+  padding: 1em;
+}
+
+#projects ul {
+  list-style: none;
+  max-width: 100%;
+  display: block;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+#projects li {
+  max-width: 100%;
+  display: inline-block;
 }
 
 #projects h1 {
@@ -71,21 +113,17 @@ a:visited {
   display: block;
 }
 
-#projects-intro {
-  padding: 2%;
-}
-
-.project-screenshot {
+.project-description {
+  background-color: rgba(178, 175, 180, 0.4);
   margin: auto;
-  /* display: inline-block; */
   max-width: 99%;
   height: auto;
+  margin-right: 3em;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
 
-.screenshots p {
-  display: inline-block;
-  /* margin: 30px; */
-  max-width: 99%;
+.project-description p{
+  white-space: normal;
 }
 
 .fa-github{
