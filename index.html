@@ -6,16 +6,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Bungee|Special+Elite|Monserrat" rel="stylesheet">
+    <link rel="icon"
+      type="image/jpg"
+      href="Profile Photo.jpg">
     <title>Rhonda Smith's Portfolio</title>
   </head>
   <body>
     <div class="intro">
       <img class="profile-pic" src="./Profile Photo.jpg"/>
       <span><h1 class="title">Rhonda Smith</h1></span>
-      <ul class="links">
-        <li><a href="http://www.github.com/smithrm941">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/smithrm941">LinkedIn</a></li>
-      </ul>
+        <ul class="links" id="navbar">
+          <li><a href=#projects>Projects</a></li>
+          <li><a href="http://www.github.com/smithrm941">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/smithrm941">LinkedIn</a></li>
+        </ul>
       <h2 id="about">
         Full-Stack JavaScript Developer is among the many hats I wear. I am currently finishing up my
         time at Learners Guild in Oakland, California where I've been studying development full-time
@@ -32,45 +36,50 @@
         <h3>
           <a href="http://www.github.com/smithrm941/reading-calculator"><i class="fab fa-github"></i></a><b><a href="https://www.github.com/smithrm941/reading-calculator" style="color: black;">Reading Calculator</b></a>
         </h3>
-        <a href="https://reading-calculator.herokuapp.com">
-          <img class="project-screenshot img-fluid"   src="./screenshots/Reading Calculator Screenshot.png"/>
-        </a>
         <p>
           <p>An app to calculate how many pages per day it will take to finish a book given a time period or two dates</p>
           <p><b>Tools and Concepts Used:</b> Create-React-App, Controlled Components</p>
         </p>
+        <a href="https://reading-calculator.herokuapp.com">
+          <img class="project-screenshot img-fluid" src="./screenshots/Reading Calculator Screenshot.png"/>
+        </a>
+        <hr>
         <h3>
           <a href="http://www.github.com/smithrm941/roam-again"><i class="fab fa-github"></i></a><b><a href="https://www.github.com/smithrm941/roam-again" style="color: black;">Roam</b></a>
         </h3>
-        <a href="https://letsroam.herokuapp.com">
-          <img class="project-screenshot img-fluid" src="./screenshots/Roam Screenshot.png"/>
-        </a>
         <p>
           <p> A mock travel website for reviewing cities</p>
           <p><b>Tools and Concepts Used:</b> Express, Express-Session, EJS, event listeners, postgreSQL, Authentication, Routing, CRUD</p>
         </p>
+        <a href="https://letsroam.herokuapp.com">
+          <img class="project-screenshot img-fluid" src="./screenshots/Roam Screenshot.png"/>
+        </a>
+        <hr>
         <h3>
           <a href="http://www.github.com/smithrm941/mutably-starter"><i class="fab fa-github"></i></a><b><a href="https://www.github.com/smithrm941/mutably-starter" style="color: black;">My Pokemanz</b></a>
         </h3>
-        <a href="https://mypokemanz.herokuapp.com">
-          <img class="project-screenshot img-fluid"   src="./screenshots/My Pokemanz Screenshot.png"/>
-        </a>
         <p>
           <p> A Single Page App that interacts with the API at mutably.herokuapp.com</p>
           <p><b>Tools and Concepts Used:</b> jQuery, Fetch, CRUD, Interaction with external API, Single Page App, Model-View-Controller </p>
         </p>
+        <a href="https://mypokemanz.herokuapp.com">
+          <img class="project-screenshot img-fluid" src="./screenshots/My Pokemanz Screenshot.png"/>
+        </a>
+        <hr>
         <h3>
           <a href="http://www.github.com/smithrm941/browser-games"><i class="fab fa-github"></i></a><b><a href="https://www.github.com/smithrm941/browser-games" style="color: black;">Browser Games</b></a>
         </h3>
-        <a href="https://rhondasgames.herokuapp.com">
-          <img class="project-screenshot img-fluid"   src="./screenshots/Browser Games Screenshot.png"/>
-        </a>
         <p>
           <p> Tic Tac Toe, Simon, and Tetris games to be played in a browser</p>
           <p><b>Tools and Concepts Used:</b> Object Oriented JavaScript, HTML/CSS, jQuery and vanilla JS for DOM manipulation</p>
         </p>
+        <a href="https://rhondasgames.herokuapp.com">
+          <img class="project-screenshot img-fluid" src="./screenshots/Browser Games Screenshot.png"/>
+        </a>
+        <hr>
       </ul>
     </div>
     <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

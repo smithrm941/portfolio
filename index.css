@@ -2,6 +2,7 @@ body{
   background-color: black;
   display: flex;
   flex-direction: column;
+  max-width: 99%;
 }
 
 a {
@@ -15,13 +16,13 @@ a:visited {
 .title{
   color: orange;
   font-family: 'Bungee', cursive;
-  font-size: 80px;
+  font-size: 4em;
   display: inline-block;
   margin-bottom: 15px;
 }
 
 .profile-pic {
-  height: 150px;
+  height: 40vh;
   display: inline-block;
 }
 
@@ -34,6 +35,8 @@ a:visited {
 
 .links li {
   float: left;
+  background-color: black;
+  z-index: 12;
 }
 
 .links li a {
@@ -41,16 +44,22 @@ a:visited {
   padding: 8px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
 #about{
   color: white;
   font-family: 'Special Elite', cursive;
+  font-size: 1.375em;
 }
 
 
 #projects{
   background-color: white;
   font-family: 'Monserrat', sans-serif;
-  width: 100%;
+  max-width: 100%;
 }
 
 #projects h1 {
@@ -69,14 +78,14 @@ a:visited {
 .project-screenshot {
   margin: auto;
   /* display: inline-block; */
-  max-width: 100%;
+  max-width: 99%;
   height: auto;
 }
 
 .screenshots p {
   display: inline-block;
   /* margin: 30px; */
-  max-width: 100%;
+  max-width: 99%;
 }
 
 .fa-github{
@@ -86,9 +95,4 @@ a:visited {
 
 .fa-linkedin{
   color: orange;
-}
-
-#contact {
-  color: white;
-  font-family: 'Bungee', cursive;
 }
