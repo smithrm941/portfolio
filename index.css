@@ -123,6 +123,7 @@ a:visited {
   height: auto;
   margin-right: 3em;
   box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  vertical-align: top;
 }
 
 #projects .project-description p{
