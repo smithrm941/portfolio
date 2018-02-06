@@ -86,7 +86,6 @@ a:visited {
 #projects h1{
   text-shadow: 2px 2px orange;
   display: block;
-  white-space: nowrap;
   font-size: 40px;
   font-family: 'Bungee', cursive;
   white-space: normal;
