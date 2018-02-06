@@ -27,11 +27,19 @@ a:visited {
   margin-right: 2em;
 }
 
+.intro .fa-github{
+  color: black;
+}
+
+.intro .fa-linkedin{
+  color: black;
+}
+
 .intro img {
   margin-top: 2em;
 }
 
-.name{
+.intro .name{
   color: orange;
   font-family: 'Bungee', cursive;
   font-size: 4em;
@@ -40,25 +48,25 @@ a:visited {
   text-shadow: 2px 2px white;
 }
 
-.profile-pic {
+.intro .profile-pic {
   height: 40vh;
   display: inline-block;
 }
 
-.links{
+.intro .links{
   display: inline-block;
   list-style-type: none;
   color: orange;
   margin-bottom: 10px;
 }
 
-.links li {
+.intro .links li {
   float: left;
   background-color: rgba(6, 6, 6, 0.4);
   z-index: 12;
 }
 
-.links li a {
+.intro .links li a {
   display: inline-block;
   padding: 8px;
 }
@@ -69,19 +77,6 @@ a:visited {
   top: 0;
 }
 
-#about h2 {
-  background-color: black;
-  color: white;
-  font-family: 'Special Elite', cursive;
-  font-size: 1em;
-}
-
-#about h1 {
-  font-family: 'Bungee', cursive;
-  color: orange;
-  text-shadow: 2px 2px white;
-}
-
 #projects{
   background-color: white;
   font-family: 'Monserrat', sans-serif;
@@ -90,6 +85,11 @@ a:visited {
 
 #projects h1{
   text-shadow: 2px 2px orange;
+  display: block;
+  white-space: nowrap;
+  font-size: 40px;
+  font-family: 'Bungee', cursive;
+  white-space: normal;
 }
 
 #projects-intro {
@@ -109,16 +109,15 @@ a:visited {
   display: inline-block;
 }
 
-#projects h1 {
-  font-size: 40px;
-  font-family: 'Bungee', cursive;
-}
-
 #projects p {
   display: block;
 }
 
-.project-description {
+#projects .screenshots .fa-github{
+  color: orange;
+}
+
+#projects .project-description {
   background-color: rgba(178, 175, 180, 0.4);
   margin: auto;
   max-width: 99%;
@@ -127,15 +126,28 @@ a:visited {
   box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
 
-.project-description p{
+#projects .project-description p{
   white-space: normal;
 }
 
-.fa-github{
+#about h2 {
+  background-color: black;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 1em;
+}
+
+#about h1 {
+  font-family: 'Bungee', cursive;
+  color: orange;
+  text-shadow: 2px 2px white;
+}
+
+#about .fa-github{
   color: orange;
   margin-right: 10px;
 }
 
-.fa-linkedin{
+#about .fa-linkedin{
   color: orange;
 }
